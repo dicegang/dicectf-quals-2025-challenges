@@ -1,0 +1,26 @@
+name: nil-circ
+author: defund
+description: |-
+  garbled circuits for securely evaluating AES
+
+  <p>*The server is running with the same AES key that was used to encrypt the flag.*</p>
+
+  `./client --circuit aes.txt --input XX...XX dicec.tf:31004`
+provide:
+  - file: ./handout.tar.gz
+    as: nil-circ.tar.gz
+flag:
+  file: ./flag.txt
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+expose:
+  main:
+    - target: 5000
+      tcp: 31004
+      healthContent: NILCIRC
+sortWeight: 10

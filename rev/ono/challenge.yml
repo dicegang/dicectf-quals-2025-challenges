@@ -1,0 +1,8 @@
+name: oño
+author: aplet123
+description: |-
+  [How do you dice an oño?](https://www.youtube.com/watch?v=CwRttSfnfcc)
+flag: "dice{n0w_w3r3_c0oK1nG_w1tH_g4s!}"
+sortWeight: 100
+provide:
+  - ./ono

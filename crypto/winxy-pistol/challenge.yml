@@ -1,0 +1,23 @@
+name: winxy-pistol
+author: defund
+description: |-
+  Choose your own adventure!
+
+  `{{ nc }}`
+provide:
+  - ./server.py
+flag:
+  file: ./flag.txt
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+expose:
+  main:
+    - target: 5000
+      tcp: 31002
+      healthContent: === CHOOSE
+sortWeight: 70

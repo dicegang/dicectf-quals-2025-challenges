@@ -1,0 +1,12 @@
+name: bcu-translation
+author: hgarrereyn,notdeghost
+description: |-
+  A rouge group of comrades have been secretly developing a new version of the BCU-8 (bios_plus).
+  They say it's "biologically accelerated" and even capable of running `translation` experiments, but we're not so sure.
+  Can you figure out if they're telling the truth?
+
+  (Same handout as the other BCU challenges)
+provide:
+  - ./dist.tar.gz
+flag: dice{b1ol0g1c4l}
+sortWeight: 10

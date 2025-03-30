@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "assembler"
+version = "0.1.0"
+description = "An assembler for the 8-bit CPU"
+requires-python = ">=3.8"
+
+[project.scripts]
+assembler = "assembler.assembler:main"

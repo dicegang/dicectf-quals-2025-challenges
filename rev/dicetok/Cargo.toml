@@ -1,0 +1,26 @@
+[workspace]
+members = ["solve"]
+
+[package]
+name = "dicetok"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ansi-to-tui = "7.0.0"
+arc-swap = "1.7.1"
+artem = "3.0.0"
+crossterm = "0.28.1"
+futures = { version = "0.3.31", default-features = false, features = ["alloc"] }
+image = "0.25.5"
+ratatui = "0.29.0"
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"]}
+serde_json = "1.0.137"
+tokio = { version = "1.43.0", features = ["full"] }
+
+[profile.dev]
+opt-level = 1
+debug = 0
+lto = "thin"
+strip = "debuginfo"

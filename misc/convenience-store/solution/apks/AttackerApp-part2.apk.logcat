@@ -1,0 +1,628 @@
+--------- beginning of main
+03-26 12:44:12.243  4300  4300 D dicectf : onCreate
+03-26 12:44:12.442  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcua
+03-26 12:44:12.638  4300  4300 D dicectf : Index: 10, Letter: a, Time: 139
+03-26 12:44:12.639  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:12.738  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcub
+03-26 12:44:12.825  4300  4300 D dicectf : Index: 10, Letter: b, Time: 63
+03-26 12:44:12.825  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:12.925  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuc
+03-26 12:44:13.006  4300  4300 D dicectf : Index: 10, Letter: c, Time: 68
+03-26 12:44:13.006  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:13.106  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcud
+03-26 12:44:13.190  4300  4300 D dicectf : Index: 10, Letter: d, Time: 67
+03-26 12:44:13.190  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:13.290  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcue
+03-26 12:44:13.369  4300  4300 D dicectf : Index: 10, Letter: e, Time: 65
+03-26 12:44:13.369  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:13.469  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuf
+03-26 12:44:13.553  4300  4300 D dicectf : Index: 10, Letter: f, Time: 73
+03-26 12:44:13.553  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:13.653  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcug
+03-26 12:44:13.732  4300  4300 D dicectf : Index: 10, Letter: g, Time: 64
+03-26 12:44:13.732  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:13.832  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuh
+03-26 12:44:13.887  4300  4300 D dicectf : Index: 10, Letter: h, Time: 43
+03-26 12:44:13.887  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:13.987  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcui
+03-26 12:44:14.051  4300  4300 D dicectf : Index: 10, Letter: i, Time: 51
+03-26 12:44:14.051  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:14.151  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuj
+03-26 12:44:14.208  4300  4300 D dicectf : Index: 10, Letter: j, Time: 48
+03-26 12:44:14.208  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:14.308  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuk
+03-26 12:44:14.373  4300  4300 D dicectf : Index: 10, Letter: k, Time: 49
+03-26 12:44:14.373  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:14.474  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcul
+03-26 12:44:14.539  4300  4300 D dicectf : Index: 10, Letter: l, Time: 50
+03-26 12:44:14.539  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:14.639  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcum
+03-26 12:44:14.702  4300  4300 D dicectf : Index: 10, Letter: m, Time: 49
+03-26 12:44:14.702  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:14.802  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcun
+03-26 12:44:14.854  4300  4300 D dicectf : Index: 10, Letter: n, Time: 42
+03-26 12:44:14.854  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:14.954  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuo
+03-26 12:44:15.011  4300  4300 D dicectf : Index: 10, Letter: o, Time: 46
+03-26 12:44:15.011  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:15.111  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcup
+03-26 12:44:15.168  4300  4300 D dicectf : Index: 10, Letter: p, Time: 45
+03-26 12:44:15.168  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:15.268  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuq
+03-26 12:44:15.324  4300  4300 D dicectf : Index: 10, Letter: q, Time: 44
+03-26 12:44:15.324  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:15.452  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcur
+03-26 12:44:15.523  4300  4300 D dicectf : Index: 10, Letter: r, Time: 52
+03-26 12:44:15.523  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:15.624  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus
+03-26 12:44:16.503  4300  4300 D dicectf : Index: 10, Letter: s, Time: 865
+03-26 12:44:16.503  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:16.603  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcut
+03-26 12:44:16.663  4300  4300 D dicectf : Index: 10, Letter: t, Time: 49
+03-26 12:44:16.663  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:16.763  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuu
+03-26 12:44:16.817  4300  4300 D dicectf : Index: 10, Letter: u, Time: 44
+03-26 12:44:16.817  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:16.917  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuv
+03-26 12:44:16.970  4300  4300 D dicectf : Index: 10, Letter: v, Time: 42
+03-26 12:44:16.970  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.070  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuw
+03-26 12:44:17.121  4300  4300 D dicectf : Index: 10, Letter: w, Time: 41
+03-26 12:44:17.121  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.221  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcux
+03-26 12:44:17.283  4300  4300 D dicectf : Index: 10, Letter: x, Time: 50
+03-26 12:44:17.283  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.384  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuy
+03-26 12:44:17.434  4300  4300 D dicectf : Index: 10, Letter: y, Time: 40
+03-26 12:44:17.434  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.534  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuz
+03-26 12:44:17.584  4300  4300 D dicectf : Index: 10, Letter: z, Time: 40
+03-26 12:44:17.584  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.684  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu0
+03-26 12:44:17.734  4300  4300 D dicectf : Index: 10, Letter: 0, Time: 38
+03-26 12:44:17.734  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.834  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu1
+03-26 12:44:17.884  4300  4300 D dicectf : Index: 10, Letter: 1, Time: 40
+03-26 12:44:17.884  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:17.985  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu2
+03-26 12:44:18.037  4300  4300 D dicectf : Index: 10, Letter: 2, Time: 42
+03-26 12:44:18.037  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:18.137  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu3
+03-26 12:44:18.193  4300  4300 D dicectf : Index: 10, Letter: 3, Time: 47
+03-26 12:44:18.193  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:18.293  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu4
+03-26 12:44:18.343  4300  4300 D dicectf : Index: 10, Letter: 4, Time: 41
+03-26 12:44:18.343  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:18.443  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu5
+03-26 12:44:18.492  4300  4300 D dicectf : Index: 10, Letter: 5, Time: 40
+03-26 12:44:18.492  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:18.592  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu6
+03-26 12:44:18.643  4300  4300 D dicectf : Index: 10, Letter: 6, Time: 41
+03-26 12:44:18.643  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:18.743  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu7
+03-26 12:44:18.794  4300  4300 D dicectf : Index: 10, Letter: 7, Time: 42
+03-26 12:44:18.794  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:18.894  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu8
+03-26 12:44:18.944  4300  4300 D dicectf : Index: 10, Letter: 8, Time: 41
+03-26 12:44:18.944  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.044  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu9
+03-26 12:44:19.098  4300  4300 D dicectf : Index: 10, Letter: 9, Time: 44
+03-26 12:44:19.098  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.199  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu{
+03-26 12:44:19.248  4300  4300 D dicectf : Index: 10, Letter: {, Time: 39
+03-26 12:44:19.248  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.348  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcu}
+03-26 12:44:19.396  4300  4300 D dicectf : Index: 10, Letter: }, Time: 39
+03-26 12:44:19.396  4300  4300 D dicectf : Index: 10, timings: {a=139, b=63, c=68, d=67, e=65, f=73, g=64, h=43, i=51, j=48, k=49, l=50, m=49, n=42, o=46, p=45, 0=38, q=44, 1=40, r=52, 2=42, s=865, 3=47, t=49, 4=41, u=44, 5=40, v=42, 6=41, w=41, 7=42, x=50, 8=41, y=40, 9=44, z=40, {=39, }=39}, max: s
+03-26 12:44:19.396  4300  4300 D dicectf : Current flag: dice{l0lcus
+03-26 12:44:19.396  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.496  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusa
+03-26 12:44:19.549  4300  4300 D dicectf : Index: 11, Letter: a, Time: 44
+03-26 12:44:19.549  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.649  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusb
+03-26 12:44:19.701  4300  4300 D dicectf : Index: 11, Letter: b, Time: 43
+03-26 12:44:19.701  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.801  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusc
+03-26 12:44:19.852  4300  4300 D dicectf : Index: 11, Letter: c, Time: 40
+03-26 12:44:19.852  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:19.952  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusd
+03-26 12:44:20.000  4300  4300 D dicectf : Index: 11, Letter: d, Time: 39
+03-26 12:44:20.000  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.101  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuse
+03-26 12:44:20.150  4300  4300 D dicectf : Index: 11, Letter: e, Time: 40
+03-26 12:44:20.150  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.250  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusf
+03-26 12:44:20.296  4300  4300 D dicectf : Index: 11, Letter: f, Time: 37
+03-26 12:44:20.297  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.397  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusg
+03-26 12:44:20.446  4300  4300 D dicectf : Index: 11, Letter: g, Time: 40
+03-26 12:44:20.446  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.546  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcush
+03-26 12:44:20.593  4300  4300 D dicectf : Index: 11, Letter: h, Time: 38
+03-26 12:44:20.593  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.693  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusi
+03-26 12:44:20.746  4300  4300 D dicectf : Index: 11, Letter: i, Time: 45
+03-26 12:44:20.746  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.847  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusj
+03-26 12:44:20.898  4300  4300 D dicectf : Index: 11, Letter: j, Time: 43
+03-26 12:44:20.898  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:20.998  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusk
+03-26 12:44:21.049  4300  4300 D dicectf : Index: 11, Letter: k, Time: 42
+03-26 12:44:21.049  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:21.150  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusl
+03-26 12:44:21.197  4300  4300 D dicectf : Index: 11, Letter: l, Time: 39
+03-26 12:44:21.197  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:21.297  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusm
+03-26 12:44:21.342  4300  4300 D dicectf : Index: 11, Letter: m, Time: 36
+03-26 12:44:21.342  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:21.442  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusn
+03-26 12:44:21.491  4300  4300 D dicectf : Index: 11, Letter: n, Time: 39
+03-26 12:44:21.491  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:21.591  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuso
+03-26 12:44:21.644  4300  4300 D dicectf : Index: 11, Letter: o, Time: 44
+03-26 12:44:21.644  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:21.744  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusp
+03-26 12:44:21.792  4300  4300 D dicectf : Index: 11, Letter: p, Time: 39
+03-26 12:44:21.792  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:21.892  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusq
+03-26 12:44:21.943  4300  4300 D dicectf : Index: 11, Letter: q, Time: 41
+03-26 12:44:21.943  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:22.043  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusr
+03-26 12:44:22.101  4300  4300 D dicectf : Index: 11, Letter: r, Time: 46
+03-26 12:44:22.101  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:22.201  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuss
+03-26 12:44:22.254  4300  4300 D dicectf : Index: 11, Letter: s, Time: 43
+03-26 12:44:22.254  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:22.354  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust
+03-26 12:44:22.963  4300  4300 D dicectf : Index: 11, Letter: t, Time: 596
+03-26 12:44:22.963  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.063  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusu
+03-26 12:44:23.116  4300  4300 D dicectf : Index: 11, Letter: u, Time: 43
+03-26 12:44:23.117  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.217  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusv
+03-26 12:44:23.273  4300  4300 D dicectf : Index: 11, Letter: v, Time: 46
+03-26 12:44:23.273  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.373  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusw
+03-26 12:44:23.432  4300  4300 D dicectf : Index: 11, Letter: w, Time: 47
+03-26 12:44:23.432  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.532  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusx
+03-26 12:44:23.582  4300  4300 D dicectf : Index: 11, Letter: x, Time: 41
+03-26 12:44:23.582  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.682  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusy
+03-26 12:44:23.733  4300  4300 D dicectf : Index: 11, Letter: y, Time: 42
+03-26 12:44:23.733  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.834  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusz
+03-26 12:44:23.881  4300  4300 D dicectf : Index: 11, Letter: z, Time: 39
+03-26 12:44:23.881  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:23.981  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus0
+03-26 12:44:24.033  4300  4300 D dicectf : Index: 11, Letter: 0, Time: 44
+03-26 12:44:24.033  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:24.134  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus1
+03-26 12:44:24.184  4300  4300 D dicectf : Index: 11, Letter: 1, Time: 42
+03-26 12:44:24.184  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:24.284  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus2
+03-26 12:44:24.333  4300  4300 D dicectf : Index: 11, Letter: 2, Time: 40
+03-26 12:44:24.333  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:24.433  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus3
+03-26 12:44:24.485  4300  4300 D dicectf : Index: 11, Letter: 3, Time: 42
+03-26 12:44:24.485  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:24.585  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus4
+03-26 12:44:24.634  4300  4300 D dicectf : Index: 11, Letter: 4, Time: 40
+03-26 12:44:24.634  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:24.734  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus5
+03-26 12:44:24.794  4300  4300 D dicectf : Index: 11, Letter: 5, Time: 48
+03-26 12:44:24.794  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:24.894  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus6
+03-26 12:44:24.944  4300  4300 D dicectf : Index: 11, Letter: 6, Time: 41
+03-26 12:44:24.944  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.044  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus7
+03-26 12:44:25.097  4300  4300 D dicectf : Index: 11, Letter: 7, Time: 43
+03-26 12:44:25.097  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.197  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus8
+03-26 12:44:25.253  4300  4300 D dicectf : Index: 11, Letter: 8, Time: 47
+03-26 12:44:25.253  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.353  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus9
+03-26 12:44:25.416  4300  4300 D dicectf : Index: 11, Letter: 9, Time: 51
+03-26 12:44:25.416  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.516  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus{
+03-26 12:44:25.569  4300  4300 D dicectf : Index: 11, Letter: {, Time: 43
+03-26 12:44:25.569  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.669  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcus}
+03-26 12:44:25.732  4300  4300 D dicectf : Index: 11, Letter: }, Time: 51
+03-26 12:44:25.732  4300  4300 D dicectf : Index: 11, timings: {a=44, b=43, c=40, d=39, e=40, f=37, g=40, h=38, i=45, j=43, k=42, l=39, m=36, n=39, o=44, p=39, 0=44, q=41, 1=42, r=46, 2=40, s=43, 3=42, t=596, 4=40, u=43, 5=48, v=46, 6=41, w=47, 7=43, x=41, 8=47, y=42, 9=51, z=39, {=43, }=51}, max: t
+03-26 12:44:25.732  4300  4300 D dicectf : Current flag: dice{l0lcust
+03-26 12:44:25.732  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.832  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusta
+03-26 12:44:25.885  4300  4300 D dicectf : Index: 12, Letter: a, Time: 43
+03-26 12:44:25.885  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:25.985  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustb
+03-26 12:44:26.044  4300  4300 D dicectf : Index: 12, Letter: b, Time: 47
+03-26 12:44:26.044  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:26.144  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustc
+03-26 12:44:26.196  4300  4300 D dicectf : Index: 12, Letter: c, Time: 42
+03-26 12:44:26.196  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:26.296  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustd
+03-26 12:44:26.349  4300  4300 D dicectf : Index: 12, Letter: d, Time: 43
+03-26 12:44:26.349  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:26.450  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcuste
+03-26 12:44:26.503  4300  4300 D dicectf : Index: 12, Letter: e, Time: 43
+03-26 12:44:26.503  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:26.603  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustf
+03-26 12:44:26.658  4300  4300 D dicectf : Index: 12, Letter: f, Time: 45
+03-26 12:44:26.658  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:26.759  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustg
+03-26 12:44:26.814  4300  4300 D dicectf : Index: 12, Letter: g, Time: 43
+03-26 12:44:26.814  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:26.914  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusth
+03-26 12:44:26.970  4300  4300 D dicectf : Index: 12, Letter: h, Time: 45
+03-26 12:44:26.970  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.070  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusti
+03-26 12:44:27.129  4300  4300 D dicectf : Index: 12, Letter: i, Time: 48
+03-26 12:44:27.129  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.229  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustj
+03-26 12:44:27.283  4300  4300 D dicectf : Index: 12, Letter: j, Time: 44
+03-26 12:44:27.283  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.383  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustk
+03-26 12:44:27.435  4300  4300 D dicectf : Index: 12, Letter: k, Time: 42
+03-26 12:44:27.435  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.535  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustl
+03-26 12:44:27.590  4300  4300 D dicectf : Index: 12, Letter: l, Time: 43
+03-26 12:44:27.590  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.690  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustm
+03-26 12:44:27.744  4300  4300 D dicectf : Index: 12, Letter: m, Time: 41
+03-26 12:44:27.744  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.844  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustn
+03-26 12:44:27.894  4300  4300 D dicectf : Index: 12, Letter: n, Time: 39
+03-26 12:44:27.894  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:27.994  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusto
+03-26 12:44:28.045  4300  4300 D dicectf : Index: 12, Letter: o, Time: 40
+03-26 12:44:28.045  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:28.145  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustp
+03-26 12:44:28.197  4300  4300 D dicectf : Index: 12, Letter: p, Time: 41
+03-26 12:44:28.197  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:28.297  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustq
+03-26 12:44:28.349  4300  4300 D dicectf : Index: 12, Letter: q, Time: 41
+03-26 12:44:28.349  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:28.450  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustr
+03-26 12:44:28.501  4300  4300 D dicectf : Index: 12, Letter: r, Time: 41
+03-26 12:44:28.501  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:28.602  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusts
+03-26 12:44:28.660  4300  4300 D dicectf : Index: 12, Letter: s, Time: 47
+03-26 12:44:28.660  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:28.760  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustt
+03-26 12:44:28.819  4300  4300 D dicectf : Index: 12, Letter: t, Time: 48
+03-26 12:44:28.819  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:28.919  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustu
+03-26 12:44:28.970  4300  4300 D dicectf : Index: 12, Letter: u, Time: 40
+03-26 12:44:28.970  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:29.070  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustv
+03-26 12:44:29.132  4300  4300 D dicectf : Index: 12, Letter: v, Time: 51
+03-26 12:44:29.132  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:29.232  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustw
+03-26 12:44:29.291  4300  4300 D dicectf : Index: 12, Letter: w, Time: 48
+03-26 12:44:29.291  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:29.391  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustx
+03-26 12:44:29.448  4300  4300 D dicectf : Index: 12, Letter: x, Time: 45
+03-26 12:44:29.448  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:29.549  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcusty
+03-26 12:44:29.602  4300  4300 D dicectf : Index: 12, Letter: y, Time: 44
+03-26 12:44:29.602  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:29.703  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcustz
+03-26 12:44:29.762  4300  4300 D dicectf : Index: 12, Letter: z, Time: 48
+03-26 12:44:29.762  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:29.863  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0
+03-26 12:44:30.459  4300  4300 D dicectf : Index: 12, Letter: 0, Time: 586
+03-26 12:44:30.459  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:30.560  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust1
+03-26 12:44:30.614  4300  4300 D dicectf : Index: 12, Letter: 1, Time: 42
+03-26 12:44:30.614  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:30.714  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust2
+03-26 12:44:30.768  4300  4300 D dicectf : Index: 12, Letter: 2, Time: 44
+03-26 12:44:30.768  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:30.869  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust3
+03-26 12:44:30.924  4300  4300 D dicectf : Index: 12, Letter: 3, Time: 43
+03-26 12:44:30.924  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.025  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust4
+03-26 12:44:31.081  4300  4300 D dicectf : Index: 12, Letter: 4, Time: 46
+03-26 12:44:31.081  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.181  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust5
+03-26 12:44:31.232  4300  4300 D dicectf : Index: 12, Letter: 5, Time: 41
+03-26 12:44:31.232  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.332  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust6
+03-26 12:44:31.385  4300  4300 D dicectf : Index: 12, Letter: 6, Time: 44
+03-26 12:44:31.385  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.486  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust7
+03-26 12:44:31.543  4300  4300 D dicectf : Index: 12, Letter: 7, Time: 43
+03-26 12:44:31.543  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.643  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust8
+03-26 12:44:31.702  4300  4300 D dicectf : Index: 12, Letter: 8, Time: 49
+03-26 12:44:31.702  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.802  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust9
+03-26 12:44:31.869  4300  4300 D dicectf : Index: 12, Letter: 9, Time: 54
+03-26 12:44:31.869  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:31.970  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust{
+03-26 12:44:32.036  4300  4300 D dicectf : Index: 12, Letter: {, Time: 50
+03-26 12:44:32.036  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:32.136  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust}
+03-26 12:44:32.200  4300  4300 D dicectf : Index: 12, Letter: }, Time: 52
+03-26 12:44:32.200  4300  4300 D dicectf : Index: 12, timings: {a=43, b=47, c=42, d=43, e=43, f=45, g=43, h=45, i=48, j=44, k=42, l=43, m=41, n=39, o=40, p=41, 0=586, q=41, 1=42, r=41, 2=44, s=47, 3=43, t=48, 4=46, u=40, 5=41, v=51, 6=44, w=48, 7=43, x=45, 8=49, y=44, 9=54, z=48, {=50, }=52}, max: 0
+03-26 12:44:32.200  4300  4300 D dicectf : Current flag: dice{l0lcust0
+03-26 12:44:32.200  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:32.300  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0a
+03-26 12:44:32.355  4300  4300 D dicectf : Index: 13, Letter: a, Time: 46
+03-26 12:44:32.355  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:32.455  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0b
+03-26 12:44:32.511  4300  4300 D dicectf : Index: 13, Letter: b, Time: 45
+03-26 12:44:32.511  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:32.611  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0c
+03-26 12:44:32.665  4300  4300 D dicectf : Index: 13, Letter: c, Time: 44
+03-26 12:44:32.665  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:32.765  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0d
+03-26 12:44:32.815  4300  4300 D dicectf : Index: 13, Letter: d, Time: 41
+03-26 12:44:32.815  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:32.915  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0e
+03-26 12:44:32.970  4300  4300 D dicectf : Index: 13, Letter: e, Time: 44
+03-26 12:44:32.970  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:33.070  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0f
+03-26 12:44:33.131  4300  4300 D dicectf : Index: 13, Letter: f, Time: 48
+03-26 12:44:33.131  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:33.231  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0g
+03-26 12:44:33.283  4300  4300 D dicectf : Index: 13, Letter: g, Time: 41
+03-26 12:44:33.283  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:33.383  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0h
+03-26 12:44:33.437  4300  4300 D dicectf : Index: 13, Letter: h, Time: 44
+03-26 12:44:33.437  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:33.537  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0i
+03-26 12:44:33.596  4300  4300 D dicectf : Index: 13, Letter: i, Time: 47
+03-26 12:44:33.596  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:33.696  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0j
+03-26 12:44:33.750  4300  4300 D dicectf : Index: 13, Letter: j, Time: 43
+03-26 12:44:33.750  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:33.850  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0k
+03-26 12:44:33.900  4300  4300 D dicectf : Index: 13, Letter: k, Time: 40
+03-26 12:44:33.900  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:34.001  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0l
+03-26 12:44:34.064  4300  4300 D dicectf : Index: 13, Letter: l, Time: 54
+03-26 12:44:34.064  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:34.164  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m
+03-26 12:44:34.754  4300  4300 D dicectf : Index: 13, Letter: m, Time: 580
+03-26 12:44:34.755  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:34.855  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0n
+03-26 12:44:34.913  4300  4300 D dicectf : Index: 13, Letter: n, Time: 48
+03-26 12:44:34.913  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.013  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0o
+03-26 12:44:35.075  4300  4300 D dicectf : Index: 13, Letter: o, Time: 42
+03-26 12:44:35.075  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.176  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0p
+03-26 12:44:35.234  4300  4300 D dicectf : Index: 13, Letter: p, Time: 47
+03-26 12:44:35.234  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.334  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0q
+03-26 12:44:35.389  4300  4300 D dicectf : Index: 13, Letter: q, Time: 45
+03-26 12:44:35.389  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.489  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0r
+03-26 12:44:35.547  4300  4300 D dicectf : Index: 13, Letter: r, Time: 48
+03-26 12:44:35.547  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.648  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0s
+03-26 12:44:35.696  4300  4300 D dicectf : Index: 13, Letter: s, Time: 39
+03-26 12:44:35.696  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.796  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0t
+03-26 12:44:35.846  4300  4300 D dicectf : Index: 13, Letter: t, Time: 41
+03-26 12:44:35.846  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:35.946  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0u
+03-26 12:44:35.999  4300  4300 D dicectf : Index: 13, Letter: u, Time: 42
+03-26 12:44:35.999  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:36.099  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0v
+03-26 12:44:36.152  4300  4300 D dicectf : Index: 13, Letter: v, Time: 40
+03-26 12:44:36.152  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:36.252  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0w
+03-26 12:44:36.299  4300  4300 D dicectf : Index: 13, Letter: w, Time: 39
+03-26 12:44:36.300  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:36.400  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0x
+03-26 12:44:36.447  4300  4300 D dicectf : Index: 13, Letter: x, Time: 39
+03-26 12:44:36.447  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:36.547  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0y
+03-26 12:44:36.596  4300  4300 D dicectf : Index: 13, Letter: y, Time: 40
+03-26 12:44:36.596  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:36.696  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0z
+03-26 12:44:36.753  4300  4300 D dicectf : Index: 13, Letter: z, Time: 47
+03-26 12:44:36.753  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:36.853  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust00
+03-26 12:44:36.900  4300  4300 D dicectf : Index: 13, Letter: 0, Time: 38
+03-26 12:44:36.900  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.000  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust01
+03-26 12:44:37.051  4300  4300 D dicectf : Index: 13, Letter: 1, Time: 42
+03-26 12:44:37.051  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.151  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust02
+03-26 12:44:37.200  4300  4300 D dicectf : Index: 13, Letter: 2, Time: 41
+03-26 12:44:37.200  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.301  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust03
+03-26 12:44:37.350  4300  4300 D dicectf : Index: 13, Letter: 3, Time: 41
+03-26 12:44:37.350  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.450  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust04
+03-26 12:44:37.501  4300  4300 D dicectf : Index: 13, Letter: 4, Time: 42
+03-26 12:44:37.501  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.601  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust05
+03-26 12:44:37.655  4300  4300 D dicectf : Index: 13, Letter: 5, Time: 44
+03-26 12:44:37.655  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.756  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust06
+03-26 12:44:37.811  4300  4300 D dicectf : Index: 13, Letter: 6, Time: 46
+03-26 12:44:37.811  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:37.911  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust07
+03-26 12:44:37.959  4300  4300 D dicectf : Index: 13, Letter: 7, Time: 39
+03-26 12:44:37.959  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.059  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust08
+03-26 12:44:38.111  4300  4300 D dicectf : Index: 13, Letter: 8, Time: 42
+03-26 12:44:38.111  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.211  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust09
+03-26 12:44:38.260  4300  4300 D dicectf : Index: 13, Letter: 9, Time: 41
+03-26 12:44:38.260  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.360  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0{
+03-26 12:44:38.417  4300  4300 D dicectf : Index: 13, Letter: {, Time: 48
+03-26 12:44:38.417  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.517  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0}
+03-26 12:44:38.575  4300  4300 D dicectf : Index: 13, Letter: }, Time: 48
+03-26 12:44:38.575  4300  4300 D dicectf : Index: 13, timings: {a=46, b=45, c=44, d=41, e=44, f=48, g=41, h=44, i=47, j=43, k=40, l=54, m=580, n=48, o=42, p=47, 0=38, q=45, 1=42, r=48, 2=41, s=39, 3=41, t=41, 4=42, u=42, 5=44, v=40, 6=46, w=39, 7=39, x=39, 8=42, y=40, 9=41, z=47, {=48, }=48}, max: m
+03-26 12:44:38.575  4300  4300 D dicectf : Current flag: dice{l0lcust0m
+03-26 12:44:38.575  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.675  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0ma
+03-26 12:44:38.726  4300  4300 D dicectf : Index: 14, Letter: a, Time: 41
+03-26 12:44:38.726  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.826  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mb
+03-26 12:44:38.876  4300  4300 D dicectf : Index: 14, Letter: b, Time: 40
+03-26 12:44:38.876  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:38.976  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mc
+03-26 12:44:39.034  4300  4300 D dicectf : Index: 14, Letter: c, Time: 43
+03-26 12:44:39.034  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:39.134  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0md
+03-26 12:44:39.180  4300  4300 D dicectf : Index: 14, Letter: d, Time: 38
+03-26 12:44:39.180  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:39.280  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0me
+03-26 12:44:39.329  4300  4300 D dicectf : Index: 14, Letter: e, Time: 41
+03-26 12:44:39.329  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:39.430  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mf
+03-26 12:44:39.481  4300  4300 D dicectf : Index: 14, Letter: f, Time: 40
+03-26 12:44:39.481  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:39.582  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mg
+03-26 12:44:39.627  4300  4300 D dicectf : Index: 14, Letter: g, Time: 37
+03-26 12:44:39.627  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:39.727  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mh
+03-26 12:44:39.774  4300  4300 D dicectf : Index: 14, Letter: h, Time: 39
+03-26 12:44:39.774  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:39.874  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mi
+03-26 12:44:39.933  4300  4300 D dicectf : Index: 14, Letter: i, Time: 48
+03-26 12:44:39.933  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.033  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mj
+03-26 12:44:40.083  4300  4300 D dicectf : Index: 14, Letter: j, Time: 41
+03-26 12:44:40.084  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.184  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mk
+03-26 12:44:40.229  4300  4300 D dicectf : Index: 14, Letter: k, Time: 38
+03-26 12:44:40.229  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.329  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0ml
+03-26 12:44:40.380  4300  4300 D dicectf : Index: 14, Letter: l, Time: 41
+03-26 12:44:40.380  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.480  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mm
+03-26 12:44:40.533  4300  4300 D dicectf : Index: 14, Letter: m, Time: 44
+03-26 12:44:40.533  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.633  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mn
+03-26 12:44:40.683  4300  4300 D dicectf : Index: 14, Letter: n, Time: 41
+03-26 12:44:40.683  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.783  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mo
+03-26 12:44:40.833  4300  4300 D dicectf : Index: 14, Letter: o, Time: 41
+03-26 12:44:40.833  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:40.933  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mp
+03-26 12:44:40.984  4300  4300 D dicectf : Index: 14, Letter: p, Time: 43
+03-26 12:44:40.984  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:41.084  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mq
+03-26 12:44:41.134  4300  4300 D dicectf : Index: 14, Letter: q, Time: 42
+03-26 12:44:41.134  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:41.234  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mr
+03-26 12:44:41.283  4300  4300 D dicectf : Index: 14, Letter: r, Time: 40
+03-26 12:44:41.283  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:41.383  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0ms
+03-26 12:44:41.435  4300  4300 D dicectf : Index: 14, Letter: s, Time: 42
+03-26 12:44:41.435  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:41.535  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mt
+03-26 12:44:42.134  4300  4300 D dicectf : Index: 14, Letter: t, Time: 587
+03-26 12:44:42.134  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:42.234  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mu
+03-26 12:44:42.286  4300  4300 D dicectf : Index: 14, Letter: u, Time: 43
+03-26 12:44:42.286  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:42.386  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mv
+03-26 12:44:42.437  4300  4300 D dicectf : Index: 14, Letter: v, Time: 42
+03-26 12:44:42.437  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:42.538  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mw
+03-26 12:44:42.591  4300  4300 D dicectf : Index: 14, Letter: w, Time: 44
+03-26 12:44:42.591  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:42.691  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mx
+03-26 12:44:42.743  4300  4300 D dicectf : Index: 14, Letter: x, Time: 42
+03-26 12:44:42.743  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:42.843  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0my
+03-26 12:44:42.896  4300  4300 D dicectf : Index: 14, Letter: y, Time: 44
+03-26 12:44:42.896  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:42.996  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mz
+03-26 12:44:43.048  4300  4300 D dicectf : Index: 14, Letter: z, Time: 42
+03-26 12:44:43.048  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:43.148  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m0
+03-26 12:44:43.198  4300  4300 D dicectf : Index: 14, Letter: 0, Time: 41
+03-26 12:44:43.198  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:43.298  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m1
+03-26 12:44:43.344  4300  4300 D dicectf : Index: 14, Letter: 1, Time: 38
+03-26 12:44:43.344  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:43.444  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m2
+03-26 12:44:43.493  4300  4300 D dicectf : Index: 14, Letter: 2, Time: 40
+03-26 12:44:43.493  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:43.593  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m3
+03-26 12:44:43.642  4300  4300 D dicectf : Index: 14, Letter: 3, Time: 39
+03-26 12:44:43.643  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:43.743  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m4
+03-26 12:44:43.794  4300  4300 D dicectf : Index: 14, Letter: 4, Time: 40
+03-26 12:44:43.794  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:43.895  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m5
+03-26 12:44:43.950  4300  4300 D dicectf : Index: 14, Letter: 5, Time: 46
+03-26 12:44:43.950  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.050  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m6
+03-26 12:44:44.102  4300  4300 D dicectf : Index: 14, Letter: 6, Time: 42
+03-26 12:44:44.102  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.202  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m7
+03-26 12:44:44.252  4300  4300 D dicectf : Index: 14, Letter: 7, Time: 39
+03-26 12:44:44.252  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.352  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m8
+03-26 12:44:44.410  4300  4300 D dicectf : Index: 14, Letter: 8, Time: 48
+03-26 12:44:44.410  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.510  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m9
+03-26 12:44:44.560  4300  4300 D dicectf : Index: 14, Letter: 9, Time: 41
+03-26 12:44:44.560  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.661  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m{
+03-26 12:44:44.711  4300  4300 D dicectf : Index: 14, Letter: {, Time: 41
+03-26 12:44:44.711  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.811  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0m}
+03-26 12:44:44.858  4300  4300 D dicectf : Index: 14, Letter: }, Time: 38
+03-26 12:44:44.858  4300  4300 D dicectf : Index: 14, timings: {a=41, b=40, c=43, d=38, e=41, f=40, g=37, h=39, i=48, j=41, k=38, l=41, m=44, n=41, o=41, p=43, 0=41, q=42, 1=38, r=40, 2=40, s=42, 3=39, t=587, 4=40, u=43, 5=46, v=42, 6=42, w=44, 7=39, x=42, 8=48, y=44, 9=41, z=42, {=41, }=38}, max: t
+03-26 12:44:44.858  4300  4300 D dicectf : Current flag: dice{l0lcust0mt
+03-26 12:44:44.858  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:44.959  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mta
+03-26 12:44:45.015  4300  4300 D dicectf : Index: 15, Letter: a, Time: 44
+03-26 12:44:45.015  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:45.115  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtb
+03-26 12:44:45.167  4300  4300 D dicectf : Index: 15, Letter: b, Time: 42
+03-26 12:44:45.167  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:45.267  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtc
+03-26 12:44:45.315  4300  4300 D dicectf : Index: 15, Letter: c, Time: 39
+03-26 12:44:45.315  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:45.416  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtd
+03-26 12:44:45.469  4300  4300 D dicectf : Index: 15, Letter: d, Time: 44
+03-26 12:44:45.469  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:45.569  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mte
+03-26 12:44:45.623  4300  4300 D dicectf : Index: 15, Letter: e, Time: 43
+03-26 12:44:45.623  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:45.724  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtf
+03-26 12:44:45.784  4300  4300 D dicectf : Index: 15, Letter: f, Time: 51
+03-26 12:44:45.784  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:45.884  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtg
+03-26 12:44:45.933  4300  4300 D dicectf : Index: 15, Letter: g, Time: 41
+03-26 12:44:45.933  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.033  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mth
+03-26 12:44:46.086  4300  4300 D dicectf : Index: 15, Letter: h, Time: 42
+03-26 12:44:46.086  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.186  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mti
+03-26 12:44:46.236  4300  4300 D dicectf : Index: 15, Letter: i, Time: 39
+03-26 12:44:46.236  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.336  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtj
+03-26 12:44:46.385  4300  4300 D dicectf : Index: 15, Letter: j, Time: 40
+03-26 12:44:46.385  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.485  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtk
+03-26 12:44:46.536  4300  4300 D dicectf : Index: 15, Letter: k, Time: 42
+03-26 12:44:46.536  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.636  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtl
+03-26 12:44:46.687  4300  4300 D dicectf : Index: 15, Letter: l, Time: 43
+03-26 12:44:46.687  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.788  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtm
+03-26 12:44:46.848  4300  4300 D dicectf : Index: 15, Letter: m, Time: 50
+03-26 12:44:46.848  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:46.948  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtn
+03-26 12:44:46.996  4300  4300 D dicectf : Index: 15, Letter: n, Time: 39
+03-26 12:44:46.996  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:47.096  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mto
+03-26 12:44:47.147  4300  4300 D dicectf : Index: 15, Letter: o, Time: 42
+03-26 12:44:47.147  4300  4300 D dicectf : Full flag not found, trying next URL
+03-26 12:44:47.247  4300  4300 D dicectf : Launching: http://10.2.2.2:8000/search?query=dice{l0lcust0mtp

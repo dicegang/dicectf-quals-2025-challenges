@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="DICEON INDUSTRIES Terminal Interface"
+    />
+    <!-- Fallback fonts in case Input Sans isn't available -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" />
+    
+    <!-- Try to load Input Sans from various sources -->
+    <style>
+      /* Attempt to load Input Sans if available */
+      @import url('https://fonts.cdnfonts.com/css/input-sans');
+      
+      /* Alternative approach using font-face */
+      @font-face {
+        font-family: 'Input Sans';
+        src: local('Input Sans'),
+             url('https://fonts.cdnfonts.com/s/18138/InputSans-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      
+      @font-face {
+        font-family: 'Input Sans';
+        src: local('Input Sans Bold'),
+             url('https://fonts.cdnfonts.com/s/18138/InputSans-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
+    <title>DICEON INDUSTRIES</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html> 

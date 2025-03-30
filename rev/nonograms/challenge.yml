@@ -1,0 +1,20 @@
+visible: true
+deployed: true
+name: nonograms
+author: ert
+description: |-
+  sudoku is so passe
+
+  (help my QR code is encrypted!)
+
+  {{ link }}
+flag: dice{piCRCr0s5!<:P}
+sortWeight: 30
+containers:
+  main:
+    build: .
+    ports: [80]
+expose:
+  main:
+  - target: 80
+    http: nonograms

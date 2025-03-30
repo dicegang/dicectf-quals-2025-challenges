@@ -1,0 +1,2 @@
+cd ..
+zip -9r golden-bridge/golden-bridge.zip golden-bridge/.gitignore golden-bridge/Dockerfile golden-bridge/launcher.py golden-bridge/nginx.conf golden-bridge/requirements.txt golden-bridge/bridge golden-bridge/eth golden-bridge/sol

@@ -1,0 +1,11 @@
+--- a/hw/audio/intel-hda.c
++++ b/hw/audio/intel-hda.c
+@@ -474,7 +474,7 @@
+     st->bentries = st->lvi +1;
+     g_free(st->bpl);
+     st->bpl = g_new(bpl, st->bentries);
+-    for (i = 0; i < st->bentries; i++, addr += 16) {
++    for (i = 0; i <= st->bentries; i++, addr += 16) {
+         pci_dma_read(&d->pci, addr, buf, 16);
+         st->bpl[i].addr  = le64_to_cpu(*(uint64_t *)buf);
+         st->bpl[i].len   = le32_to_cpu(*(uint32_t *)(buf + 8));

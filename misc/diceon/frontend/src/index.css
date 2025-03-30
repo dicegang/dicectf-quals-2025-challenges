@@ -1,0 +1,871 @@
+/* CRT Monitor Effect */
+@keyframes flicker {
+  0% {
+    opacity: 0.9;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.9;
+  }
+  15% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.95;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.94;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes blink {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+/* ASCII Border Characters */
+:root {
+  --ascii-h: "-";
+  --ascii-v: "|";
+  --ascii-corner-tl: "+";
+  --ascii-corner-tr: "+";
+  --ascii-corner-bl: "+";
+  --ascii-corner-br: "+";
+  --ascii-arrow: ">";
+}
+
+/* CRT screen effects */
+html {
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1000;
+  animation: scanline 8s linear infinite;
+}
+
+html::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    transparent 0%,
+    rgba(0, 0, 0, 0.4) 90%
+  );
+  pointer-events: none;
+  z-index: 999;
+}
+
+body {
+  margin: 0;
+  font-family: 'Input Sans', 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0f;
+  color: #acf0ff;
+  /* animation: flicker 2s infinite; */
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 7px rgba(172, 240, 255, 0.9), 0 0 10px rgba(172, 240, 255, 0.6), 0 0 21px rgba(172, 240, 255, 0.4);
+  height: 100%;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  line-height: 1.2;
+}
+
+/* Add a glowing effect to the whole screen */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 100px rgba(0, 150, 255, 0.2);
+  pointer-events: none;
+  z-index: 998;
+}
+
+/* Add scanlines to the entire screen */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%,
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  z-index: 997;
+  pointer-events: none;
+  opacity: 0.15;
+}
+
+/* Cursor blink effect for inputs */
+/* textarea:focus {
+  caret-color: transparent;
+}*/
+
+/* textarea:focus::after {
+  content: '█';
+  animation: blink 1s step-end infinite;
+} */
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.App-header {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-bottom: none;
+  position: relative;
+}
+
+.App-header::before {
+  content: "+==============================================+";
+  display: block;
+  margin-bottom: 10px;
+  color: #2a6baa;
+}
+
+.App-header::after {
+  content: "+==============================================+";
+  display: block;
+  margin-top: 10px;
+  color: #2a6baa;
+}
+
+.App-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(172, 240, 255, 1), 0 0 20px rgba(172, 240, 255, 0.8), 0 0 30px rgba(172, 240, 255, 0.6);
+  white-space: pre;
+}
+
+/* ASCII Logo */
+.App-header h1::before {
+  content: "  ____  __  _____ _____ ___  _   _   \A / ___|/  \\|_   _| ____/ _ \\| \\ | | \A| |   | () | | | |  _|| | | |  \\| | \A| |___| || | | | | |__| |_| | |\\  | \A \\____|\\__/  |_| |_____\\___/|_| \\_| \A";
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin-bottom: 10px;
+}
+
+.prompt-container {
+  padding: 15px;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  position: relative;
+}
+
+.prompt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #0c0c14;
+  color: #acf0ff;
+  border: none;
+  border-radius: 0;
+  /* resize: vertical; */
+  font-size: 16px;
+  font-family: 'Input Sans', 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  position: relative;
+  resize: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #0c0c14;
+  color: #acf0ff;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Input Sans', 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  text-transform: uppercase;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+/* ASCII border for buttons */
+button::before {
+  content: "[";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2a6baa;
+}
+
+button::after {
+  content: "]";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2a6baa;
+}
+
+button:disabled {
+  color: #5a7c8c;
+  pointer-events: none;
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px rgba(255, 107, 107, 0.8), 0 0 15px rgba(255, 107, 107, 0.5);
+  padding-left: 20px;
+  position: relative;
+}
+
+.error-message::before {
+  content: "!";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff6b6b;
+}
+
+.response-container {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px dashed #2a6baa;
+  position: relative;
+}
+
+.response-container::before {
+  content: "+---------- RESPONSE ----------+";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #111218;
+  padding: 0 10px;
+  color: #2a6baa;
+}
+
+.response-display {
+  margin-bottom: 20px;
+}
+
+.loading-indicator {
+  text-align: center;
+  color: #7cccff;
+}
+
+.loading-indicator::before {
+  content: "[.......]";
+  animation: flicker 1s infinite;
+  margin-right: 10px;
+}
+
+.responses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.response-item {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 0;
+  border-left: none;
+  position: relative;
+  margin-left: 20px;
+}
+
+.response-item::before {
+  content: ">";
+  position: absolute;
+  left: -15px;
+  color: #2a6baa;
+}
+
+.response-status {
+  margin-top: 15px;
+  font-style: italic;
+  color: #7cccff;
+  text-align: right;
+}
+
+.response-status::after {
+  content: "-----";
+  margin-left: 5px;
+  color: #2a6baa;
+}
+
+.response-status.complete {
+  color: #6cffac;
+}
+
+.response-status.complete::after {
+  content: "[DONE]";
+  margin-left: 5px;
+  color: #6cffac;
+}
+
+.permalink-button {
+  margin-top: 20px;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conversation-view {
+  padding: 20px;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  position: relative;
+}
+
+.conversation-details {
+  margin: 30px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.prompt-section, .responses-section {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.conversation-meta {
+  font-size: 0.9em;
+  color: #7cccff;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px dashed #2a6baa;
+  text-align: right;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Terminal elements styling */
+.terminal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.terminal-header::before {
+  content: "+-----------------------------------+-------------------+";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  color: #2a6baa;
+}
+
+.terminal-header::after {
+  content: "+-----------------------------------+-------------------+";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  color: #2a6baa;
+}
+
+.terminal-title {
+  font-size: 1.2rem;
+  color: #acf0ff;
+  text-shadow: 0 0 8px rgba(172, 240, 255, 0.8), 0 0 15px rgba(172, 240, 255, 0.5);
+  position: relative;
+  padding-left: 15px;
+}
+
+.terminal-title::before {
+  content: "|";
+  position: absolute;
+  left: 0;
+  color: #2a6baa;
+}
+
+.terminal-controls {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  padding-right: 15px;
+}
+
+.terminal-controls::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  color: #2a6baa;
+}
+
+.terminal-status {
+  font-size: 0.9rem;
+  color: #7cccff;
+  text-shadow: 0 0 8px rgba(124, 204, 255, 0.8);
+  position: relative;
+  padding-left: 10px;
+}
+
+.terminal-status::before {
+  content: "*";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #7cccff;
+}
+
+.terminal-status.blink {
+  animation: blink 1.5s step-end infinite;
+  color: #6cffac;
+  text-shadow: 0 0 8px rgba(108, 255, 172, 0.8), 0 0 15px rgba(108, 255, 172, 0.5);
+}
+
+.terminal-status.blink::before {
+  content: "*";
+  color: #6cffac;
+}
+
+.prompt-prefix {
+  color: #6cffac;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(108, 255, 172, 0.7), 0 0 15px rgba(108, 255, 172, 0.4);
+  position: relative;
+  padding-left: 15px;
+}
+
+.prompt-prefix::before {
+  content: "> ";
+  position: absolute;
+  left: 0;
+  color: #6cffac;
+}
+
+.response-header {
+  color: #7cccff;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  border-bottom: none;
+  padding-bottom: 5px;
+  text-shadow: 0 0 8px rgba(124, 204, 255, 0.8), 0 0 15px rgba(124, 204, 255, 0.5);
+  position: relative;
+  padding-left: 15px;
+}
+
+.response-header::before {
+  content: "< ";
+  position: absolute;
+  left: 0;
+  color: #7cccff;
+}
+
+.response-header::after {
+  content: "-----------------------------------------------------";
+  display: block;
+  margin-top: 5px;
+  color: #2a6baa;
+}
+
+/* ASCII art elements */
+.ascii-art {
+  font-family: monospace;
+  color: #2a6baa;
+  line-height: 1.2;
+  margin: 10px 0;
+  text-align: center;
+  white-space: pre;
+}
+
+.ascii-footer {
+  font-family: monospace;
+  color: #2a6baa;
+  line-height: 1.2;
+  margin-top: 30px;
+  text-align: center;
+  white-space: pre;
+}
+
+/* Ensure proper spacing around ASCII art */
+pre {
+  margin: 10px 0;
+}
+
+/* Basic setup */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Input Sans', 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0f;
+  color: #acf0ff;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 7px rgba(172, 240, 255, 0.9), 0 0 10px rgba(172, 240, 255, 0.6), 0 0 21px rgba(172, 240, 255, 0.4);
+  overflow-x: hidden;
+}
+
+/* Top bar - 40px tall with border, not touching edges */
+.top-bar {
+  height: 40px;
+  margin: 0 20px;
+  border: 1px solid #2a6baa;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.location {
+  position: absolute;
+  left: 15px;
+  color: #acf0ff;
+}
+
+.company {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(172, 240, 255, 1), 0 0 20px rgba(172, 240, 255, 0.8), 0 0 30px rgba(172, 240, 255, 0.6);
+}
+
+/* Double bar across whole page */
+.double-bar {
+  border-top: 1px solid #2a6baa;
+  border-bottom: 1px solid #2a6baa;
+  height: 3px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Simple prompt interface */
+.prompt-container {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.prompt-line {
+  display: flex;
+  align-items: top;
+  margin-bottom: 15px;
+}
+
+.prompt-label {
+  color: #acf0ff;
+  white-space: nowrap;
+  text-shadow: 0 0 8px rgba(172, 240, 255, 0.8);
+  padding-top: 5px;
+}
+
+.prompt-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #2a6baa;
+  color: #acf0ff;
+  margin-left: 10px;
+  padding: 5px;
+  flex-grow: 1;
+  font-family: 'Input Sans', 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  font-size: 16px;
+  text-shadow: 0 0 7px rgba(172, 240, 255, 0.9);
+  outline: none;
+  height: auto;
+}
+
+/* Results area */
+.results-container {
+  margin-top: 30px;
+}
+
+.result-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2a6baa;
+  box-shadow: 0 0 5px rgba(172, 240, 255, 0.3);
+  max-width: 1000px;
+}
+
+/* Status indicators */
+.status {
+  color: #7cccff;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.status.ready {
+  color: #6cffac;
+  animation: blink 1.5s step-end infinite;
+}
+
+/* Error message */
+.error-message {
+  color: #ff6b6b;
+  margin: 10px 0;
+  text-shadow: 0 0 8px rgba(255, 107, 107, 0.8);
+}
+
+/* Archive link */
+.archive-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #acf0ff;
+  text-decoration: none;
+}
+
+.archive-link:hover {
+  text-shadow: 0 0 12px rgba(172, 240, 255, 1);
+}
+
+button:hover {
+  text-shadow: 0 0 12px rgba(172, 240, 255, 1);
+}
+
+button:disabled:hover {
+  text-shadow: none;
+  pointer-events: none;
+}
+
+/* Loading animation */
+.loading {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.loading::after {
+  content: ".";
+  animation: loading 1.2s linear infinite;
+}
+
+@keyframes loading {
+  0%, 33% { content: "."; }
+  34%, 66% { content: ".."; }
+  67%, 100% { content: "..."; }
+}
+
+/* Add a few more styles for the waiting indicator and add one final glowing effect */
+
+/* Waiting status */
+.waiting {
+  color: #7cccff;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+/* Add a body glow for the screen */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 100px rgba(0, 150, 255, 0.2);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Fix the height of the App to take full screen */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.timeline-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-track {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #2a6baa;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+}
+
+.timeline-item.outie {
+  justify-content: flex-start;
+}
+
+.timeline-item.innie {
+  justify-content: flex-end;
+}
+
+.timeline-item.outie .message-box {
+  margin-right: 50px;
+  max-width: calc(50% - 30px);
+}
+
+.timeline-item.innie .message-box {
+  margin-left: 50px;
+  max-width: calc(50% - 30px);
+}
+
+.message-box {
+  border: 1px solid #2a6baa;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.timeline-red .message-box, .timeline-red .message-header {
+  border-color: #ff6b6b;
+}
+
+.timeline-green .message-box, .timeline-green .message-header {
+  border-color: #6cffac;
+}
+
+.message-header {
+  background-color: #0a0a0f;
+  padding: 5px 10px;
+  font-family: monospace;
+  border-bottom: 1px solid #2a6baa;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.message-content {
+  padding: 10px;
+  color: #acf0ff;
+  word-break: break-word;
+}
+
+.waiting, .status {
+  text-align: center;
+  /* color: #2a6baa; */
+  padding: 10px;
+  font-style: italic;
+}
+
+.timeline-headers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.timeline-header {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.timeline-double {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.timeline-double .message-box {
+  max-width: calc(50% - 30px);
+}
+
+.timeline-double-separator {
+  flex-grow: 1;
+  margin-top: 20px;
+  height: 20px;
+  background-color: #2a6baa;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.timeline-red .timeline-double-separator {
+  background-color: #ff6b6b;
+}
+
+.timeline-green .timeline-double-separator {
+  background-color: #6cffac;
+}

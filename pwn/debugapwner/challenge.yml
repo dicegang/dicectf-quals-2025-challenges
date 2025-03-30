@@ -1,0 +1,27 @@
+name: debugapwner
+author: clubby
+description: |-
+  Revving `debugalyzer` wasn't enough? Try pwning it
+
+  `{{ nc }}`
+
+flag:
+  file: flag.txt
+
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+provide:
+  - Dockerfile
+  - server.py
+  - dwarf
+expose:
+  main:
+    - target: 5000
+      tcp: 32337
+      healthContent: Please provide base64 encoded ELF
+sortWeight: 50

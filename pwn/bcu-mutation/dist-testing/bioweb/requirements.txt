@@ -1,0 +1,9 @@
+Flask==3.1.0
+Flask-SocketIO==5.5.1
+Flask-CORS==5.0.1
+python-socketio==5.12.1
+python-engineio==4.11.2
+eventlet==0.39.1
+requests==2.28.2
+SQLAlchemy==2.0.40
+gunicorn==23.0.0

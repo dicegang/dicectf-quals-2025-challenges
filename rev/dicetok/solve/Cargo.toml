@@ -1,0 +1,9 @@
+[package]
+name = "solve"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde_json = { version = "1.0" }
+warp = { version = "0.3", features = ["tls"] }

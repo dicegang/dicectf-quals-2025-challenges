@@ -1,0 +1,9 @@
+[project]
+name = "biosim"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "libroadrunner==2.7.0",
+]

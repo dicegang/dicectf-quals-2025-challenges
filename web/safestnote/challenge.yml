@@ -1,0 +1,23 @@
+name: safestnote
+author: arxenix
+description: |-
+  i got sick and tired of all the unsafe note apps out there, so i made this
+
+  {{link}}
+
+  [Admin Bot]({{ adminbot }})
+flag:
+  file: challenge/flag.txt
+sortWeight: 10
+containers:
+  main:
+    build: challenge
+    ports:
+      - 80
+provide:
+  - ./safestnote.tar.gz
+expose:
+  main:
+    - target: 80
+      http: safestnote
+adminbot: challenge/adminbot.js

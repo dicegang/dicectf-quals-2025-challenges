@@ -1,0 +1,24 @@
+name: fairy-ring
+author: defund
+description: |-
+  fairy [ring signatures](https://en.wikipedia.org/wiki/Ring_signature)
+
+  `{{ nc }}`
+provide:
+  - file: ./handout.tar.gz
+    as: fairy-ring.tar.gz
+flag:
+  file: ./flag.txt
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+expose:
+  main:
+    - target: 5000
+      tcp: 31003
+      healthContent: === FAIRIES
+sortWeight: 40

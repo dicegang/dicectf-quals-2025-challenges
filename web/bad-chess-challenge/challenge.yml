@@ -1,0 +1,41 @@
+name: bad-chess-challenge
+author: larry
+description: |-
+  strel is way better at writing chess challenges than me
+
+  send your emails to smtps://{{host}}:1
+flag: &flag "dice{winn1ng_fa1r_and_square_im_sur3}"
+sortWeight: 70
+containers:
+  main:
+    build: challenge/mail
+    ports:
+      - 2525
+    environment:
+      FLAG: *flag
+    resources:
+      limits:
+        cpu: 4000m
+        memory: 2000Mi
+      requests:
+        cpu: 250m
+        memory: 1000Mi
+  stockfish:
+    build: challenge/stockfish
+    ports:
+      - 8000
+    resources:
+      requests:
+        cpu: 250m
+        memory: 1000Mi
+      limits:
+        cpu: 8000m
+        memory: 3000Mi
+provide:
+  - ./bad-chess-challenge.tar.gz
+expose:
+  main:
+    - target: 2525
+      tls:
+        entrypoint: tcp
+        hostname: bad-chess-challenge

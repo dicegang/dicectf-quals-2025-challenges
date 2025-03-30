@@ -1,0 +1,9 @@
+[package]
+name = "solve"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+gen_elf = { version = "0.1.0", path = "../../../rev/debugalyzer/gen_elf" }
+object = "0.36.7"

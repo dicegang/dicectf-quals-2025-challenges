@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Experiment Runner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bio Experiment Runner</h1>
+        
+        <div class="experiment-form">
+            <div class="form-group">
+                <label for="experiment-select">Select Experiment:</label>
+                <select id="experiment-select">
+                    <option value="">-- Select an experiment --</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="experiment-input">Input (optional):</label>
+                <textarea id="experiment-input" placeholder="Enter optional input for the experiment"></textarea>
+            </div>
+            
+            <button id="run-button">Run Experiment</button>
+        </div>
+        
+        <div id="experiment-status" class="hidden">
+            <h2>Experiment Status</h2>
+            
+            <div class="progress-container">
+                <div class="progress-stages">
+                    <div class="stage loading">
+                        <div class="stage-icon">⏳</div>
+                        <div class="stage-label">Loading</div>
+                    </div>
+                    <div class="stage-connector"></div>
+                    
+                    <div class="stage pipetting">
+                        <div class="stage-icon">🧪</div>
+                        <div class="stage-label">Pipetting</div>
+                    </div>
+                    <div class="stage-connector"></div>
+                    
+                    <div class="stage running">
+                        <div class="stage-icon">🔬</div>
+                        <div class="stage-label">Running</div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text">0%</div>
+                    </div>
+                    <div class="stage-connector"></div>
+                    
+                    <div class="stage completed">
+                        <div class="stage-icon">✅</div>
+                        <div class="stage-label">Completed</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="output-container" class="hidden">
+                <h3>Experiment Output:</h3>
+                <pre id="experiment-output"></pre>
+            </div>
+            
+            <div id="error-container" class="hidden">
+                <h3>Error:</h3>
+                <pre id="error-message"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

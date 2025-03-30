@@ -1,0 +1,9 @@
+name: bcu-binding
+author: hgarrereyn # & notdeghost
+description: |-
+  Comrades, we found this old manual in our basement. Can you see if there's
+  anything interesting about it?
+flag: dice{r3ad1ng_th4_d0cs_71ccd}
+provide:
+- ./cpu_documentation.pdf
+sortWeight: 100

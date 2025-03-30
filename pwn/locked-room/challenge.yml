@@ -1,0 +1,28 @@
+name: locked-room
+author: poortho, Triacontakai
+description: |-
+  Without love, 'it' cannot be seen.
+
+  `{{ nc }}`
+flag:
+  file: flag.txt
+
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+provide:
+  - Dockerfile
+  - libc.patch
+  - libc.so
+  - locked_room
+  - locked_room.c
+  - run.sh
+expose:
+  main:
+    - target: 5000
+      tcp: 32019
+sortWeight: 30

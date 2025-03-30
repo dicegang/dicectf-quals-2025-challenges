@@ -1,0 +1,8 @@
+name: dicetok
+author: clubby
+description: Worried about your favorite infinite scrolling cat video generator being banned? Time to switch to DiceTok!
+flag:
+  dice{:3}
+sortWeight: 70
+provide:
+  - dicetok.zip

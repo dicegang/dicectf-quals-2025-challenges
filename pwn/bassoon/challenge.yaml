@@ -1,0 +1,34 @@
+name: bassoon
+author: enzocut
+description: |-
+  Tame the noise like a professional bassooner.
+
+  `{{nc}}`
+
+flag:
+  file: flag.txt
+
+provide:
+  - dist.tar.gz
+
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+    resources:
+      limits:
+        cpu: 4000m
+        memory: 6144Mi
+      requests:
+        cpu: 250m
+        memory: 1536Mi
+
+expose:
+  main:
+    - target: 5000
+      tcp: 32079
+
+sortWeight: 31

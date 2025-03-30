@@ -1,0 +1,15 @@
+[project]
+name = "bioarm-server"
+version = "0.1.0"
+description = "HTTP server for BioARM"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["."] 

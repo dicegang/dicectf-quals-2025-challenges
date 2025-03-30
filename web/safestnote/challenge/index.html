@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>safestnote</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.4/purify.min.js" integrity="sha512-Y1p/STLW/B+l+MPJ5K5OdILMwJa2gMFXXmC/qsyDuGH9uc1MZMUo6/8YQUg9Ut4ns8KGCrCtt+58UwmNFFiVvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.classless.amber.min.css" integrity="sha256-lfe8Or0NPzfaRc2BaDdu8c/wUJ49WvAj+MT5yAAut8Y=" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h2>safestnote</h2>
+                <p>Create a safe HTML note, protected by DOMPurify!</p>
+            </hgroup>
+        </header>
+        <main>
+            <article id="content"></article>
+            <hr/>
+            <form method="get">
+                <input name="note" type="text" placeholder="<b>your note here!</b>">
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <script>
+            const evil = '#@\'"&\\-+';
+            const params = new URLSearchParams(location.search);
+            if (params.has('note')) {
+                const newNote = params.get('note');
+                if ([...evil].some(c => newNote.includes(c)) || newNote.length > 500) {
+                    alert('Bad note!');
+                } else {
+                    localStorage.setItem('note', DOMPurify.sanitize(newNote));
+                }
+            }
+            const note = localStorage.getItem('note') ?? 'No note saved';
+            document.getElementById('content').innerHTML = note;
+        </script>
+    </body>
+</html>

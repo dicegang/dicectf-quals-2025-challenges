@@ -1,0 +1,31 @@
+name: pyramid
+author: BrownieInMotion
+description: |-
+  Would you like to buy some supplements?
+
+  {{ link }}
+flag: dice{007227589c05e703}
+sortWeight: 90
+containers:
+  main:
+    build: .
+    ports:
+      - 3000
+    environment:
+      FLAG: dice{007227589c05e703}
+    resources:
+      requests:
+        cpu: 250m
+        memory: 1000Mi
+      limits:
+        cpu: 1000m
+        memory: 2000Mi
+provide:
+  - ./index.js
+expose:
+  main:
+    - target: 3000
+      tls:
+          entrypoint: https
+          hostname: pyramid
+      healthContent: Register

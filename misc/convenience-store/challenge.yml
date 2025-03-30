@@ -1,0 +1,24 @@
+name: convenience-store
+author: orion, hpmv
+description: |-
+  grab-and-go flags 🚩 🛒
+
+  IMPORTANT: flag format is `dice\{[a-z0-9]{10,20}\}`: https://regex101.com/r/kStMza/1
+
+  Submit your APK here: {{ link }}
+
+flag: "dice{l0lcust0mt4bs}"
+provide:
+  - ./web-src.zip
+  - ./instructions.md
+containers:
+  main:
+    build: nginx
+    ports:
+      - 8080
+expose:
+  main:
+    - target: 8080
+      http: convenience-store
+      healthContent: Streamlit
+sortWeight: 20

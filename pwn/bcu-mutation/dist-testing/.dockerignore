@@ -1,0 +1,36 @@
+# Version control
+.git
+.gitignore
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+*.so
+.pytest_cache/
+
+# Database files (these will be in volumes)
+*.db
+data/
+
+# Node.js (if any frontend is bundled)
+node_modules/
+npm-debug.log
+
+# Logs
+*.log
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo 

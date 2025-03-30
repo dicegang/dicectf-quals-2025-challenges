@@ -1,0 +1,47 @@
+name: diceon
+author: hgarrereyn
+description: |-
+  Please enjoy each flag equally.
+
+  (You can test locally with the provided dist package, you will need an OPENAI_API_KEY)
+
+  [Instance]({{ instancer }})
+flag: dice{pr0mpt_1njecting_y0ur_own_br41n}
+provide:
+- ./diceon-dist.tar.gz
+containers:
+  backend1:
+    build: backend
+    ports: [5000]
+    resources:
+      limits:
+        cpu: 200m
+        memory: 200Mi
+      requests:
+        cpu: 100m
+        memory: 200Mi
+  db:
+    build: postgres
+    environment:
+      POSTGRES_PASSWORD: lmaolmaolmao
+    ports: [5432]
+  nginx:
+    build: nginx
+    ports: [80]
+    resources:
+      limits:
+        cpu: 200m
+        memory: 200Mi
+      requests:
+        cpu: 100m
+        memory: 200Mi
+    environment:
+      WORKER_COUNT: "1"
+expose:
+  nginx:
+  - target: 80
+    http: diceon
+    healthContent: DICEON
+sortWeight: 90
+instancer:
+  timeout: 1800000

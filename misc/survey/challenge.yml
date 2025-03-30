@@ -1,0 +1,8 @@
+name: survey
+author: defund
+description: |
+  Thanks for participating in DiceCTF Quals! Fill out this [survey](https://forms.gle/v1pf9L411Sx5qacz5) to get the flag.
+flag: dice{thanks_for_playing_dicectf!!!!!}
+tiebreakEligible: false
+value: 1
+visible: true

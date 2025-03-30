@@ -1,0 +1,34 @@
+name: oboe
+author: enzocut
+description: |-
+  The most common type of oboe, the soprano oboe pitched in C, measures roughly 65 cm long and has metal keys, a conical bore and a flared bell.
+
+  `{{nc}}`
+
+flag:
+  file: flag.txt
+
+provide:
+  - dist.tar.gz
+
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+    resources:
+      limits:
+        cpu: 500m
+        memory: 512Mi
+      requests:
+        cpu: 50m
+        memory: 64Mi
+
+expose:
+  main:
+    - target: 5000
+      tcp: 32069
+
+sortWeight: 40

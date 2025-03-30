@@ -1,0 +1,23 @@
+name: glail
+author: BrownieInMotion
+description: |-
+  pub fn main() { "⭐" }
+
+  `{{ nc }}`
+flag:
+  file: ./flag.txt
+provide:
+- ./glail.tar.gz
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+expose:
+  main:
+  - target: 5000
+    tcp: 31333
+    healthContent: ">"
+sortWeight: 50

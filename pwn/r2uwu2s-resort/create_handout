@@ -1,0 +1,6 @@
+mv flag.txt flag_actual.txt
+printf "dice{test_flag}" > flag.txt
+cd ..
+zip -9r r2uwu2s-resort/r2uwu2s-resort.zip r2uwu2s-resort/Dockerfile r2uwu2s-resort/flag.txt r2uwu2s-resort/resort r2uwu2s-resort/resort.c r2uwu2s-resort/run.sh
+cd r2uwu2s-resort
+mv flag_actual.txt flag.txt

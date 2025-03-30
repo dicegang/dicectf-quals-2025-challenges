@@ -1,0 +1,11 @@
+[package]
+name = "gen_elf"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.95"
+bytemuck = { version = "1.21.0", features = ["derive"] }
+gimli = "0.31.1"
+object = { version = "0.36.7", features = ["build", "write"] }
+rand = "0.9.0"

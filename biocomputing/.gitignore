@@ -1,0 +1,9 @@
+__pycache__/
+harness/cache/
+
+verilog/outputs
+verilog/synth.ys
+
+assembler/bin
+
+.DS_Store 

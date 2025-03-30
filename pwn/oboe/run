@@ -1,0 +1,11 @@
+#!/bin/sh
+
+qemu-system-x86_64 \
+	-kernel bzImage \
+	-initrd initramfs.cpio.gz \
+	-monitor none \
+	-append "console=ttyS0 quiet oops=panic" \
+	-cpu qemu64,+smep,+smap \
+	-m 128M \
+	-nographic \
+	-no-reboot

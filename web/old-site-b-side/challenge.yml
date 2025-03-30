@@ -1,0 +1,38 @@
+name: old-site-b-side
+author: arcblroth
+description: |-
+  Old Site (Red Moonrise Mix)
+
+  Music by CursedCTF 2023 Authors
+
+  DiceCTF 2025 Quals
+
+  [Instancer]({{ instancer }})
+
+flag: &flag "dice{aw3_j33z_w3_back_1n_1t_f0r_th3_r3m1x_0d31f04e}"
+sortWeight: 50
+provide:
+  - old-site-b-side.zip
+
+containers:
+  main:
+    build: .
+    ports:
+      - 3000
+    environment:
+      FLAG: *flag
+    resources:
+      limits:
+        cpu: 1000m
+        memory: 1000Mi
+      requests:
+        cpu: 100m
+        memory: 400Mi
+
+expose:
+  main:
+    - target: 3000
+      http: old-site-b-side
+
+instancer:
+  timeout: 600000

@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package bioarm;
+
+// The BioArm service definition
+service BioArm {
+  // Initialize the system with an SBML model (gzipped and base64 encoded)
+  rpc InitializeSystem (InitializeRequest) returns (InitializeResponse) {}
+
+  // Add species via pipette
+  rpc PipetteIn (PipetteRequest) returns (Empty) {}
+  
+  // Wait for a specified duration
+  rpc Delay (DelayRequest) returns (Empty) {}
+  
+  // Read concentrations of specified species
+  rpc ReadOut (ReadOutRequest) returns (ReadOutResponse) {}
+
+  // Read the full concentration history since last delay
+  rpc ReadFull (ReadFullRequest) returns (ReadFullResponse) {}
+}
+
+// Empty message for responses that don't need data
+message Empty {}
+
+// Initialize system with SBML model
+message InitializeRequest {
+  // The SBML string, gzipped and base64 encoded
+  string sbml_string = 1;
+}
+
+message InitializeResponse {
+  bool success = 1;
+  string error_message = 2;  // populated if success is false
+}
+
+// Pipette in species
+message PipetteRequest {
+  repeated string species = 1;
+  repeated string scavengers = 2;
+}
+
+// Delay for specified time
+message DelayRequest {
+  double seconds = 1;
+}
+
+// Read out concentrations
+message ReadOutRequest {
+  repeated string species = 1;
+}
+
+message ReadOutResponse {
+  map<string, double> concentrations = 1;
+} 
+
+// Read the full concentration history since last delay
+message ReadFullRequest {
+  repeated string species = 1;
+}
+
+message SpeciesHistory {
+  repeated double concentrations = 1;
+}
+
+message ReadFullResponse {
+  map<string, SpeciesHistory> history = 1;
+}

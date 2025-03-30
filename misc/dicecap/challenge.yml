@@ -1,0 +1,7 @@
+name: dicecap
+author: jammy
+description: As DiceGang haven't won a CTF in 4 months, we've taken to more drastic measures to get to the top of the leaderboard - hacking our competitors! This pcap was gathered from a previous "information gathering" mission, can you find the flag?
+flag: dice{5k1d_y0ur_w@y_t0_v1ct0ry_t0d4y!!!}
+provide:
+  - challenge.pcap
+sortWeight: 80

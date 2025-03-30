@@ -1,0 +1,8 @@
+name: debugalyzer
+author: clubby
+description: Stripped rev is too hard - I've added even more debuginfo to help you with this challenge!
+flag:
+  dice{h1ghly_sp3c_c0mpl14nt_dw4rf_p4rs3r}
+sortWeight: 90
+provide:
+  - debugalyzer.zip

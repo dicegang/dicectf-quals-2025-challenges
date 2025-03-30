@@ -1,0 +1,24 @@
+name: satisfied
+author: wwm
+description: |-
+  you don't even know what you're asking me to confess
+
+  `{{ nc }}`
+provide:
+  - ./server.py
+  - ./hamiltonicity.py
+flag:
+  file: ./flag.txt
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+expose:
+  main:
+    - target: 5000
+      tcp: 31084
+      healthContent: send graph G
+sortWeight: 80

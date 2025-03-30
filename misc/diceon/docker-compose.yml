@@ -1,0 +1,43 @@
+services:
+  backend1:
+    build: backend
+    ports:
+      - 8000
+  backend2:
+    build: backend
+    ports:
+      - 8000
+  backend3:
+    build: backend
+    ports:
+      - 8000
+  backend4:
+    build: backend
+    ports:
+      - 8000
+  backend5:
+    build: backend
+    ports:
+      - 8000
+  backend6:
+    build: backend
+    ports:
+      - 8000
+  backend7:
+    build: backend
+    ports:
+      - 8000
+  backend8:
+    build: backend
+    ports:
+      - 8000
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: lmaolmaolmao
+    ports:
+      - 5432
+  nginx:
+    build: nginx
+    ports:
+      - 80:80

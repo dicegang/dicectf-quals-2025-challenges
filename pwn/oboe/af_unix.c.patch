@@ -1,0 +1,11 @@
+--- a/net/unix/af_unix.c
++++ b/net/unix/af_unix.c
+@@ -325,7 +325,7 @@
+ 
+ 	refcount_set(&addr->refcnt, 1);
+ 	addr->len = addr_len;
+-	memcpy(addr->name, sunaddr, addr_len);
++	memcpy(addr->name, sunaddr, addr_len + 1);
+ 
+ 	return addr;
+ }

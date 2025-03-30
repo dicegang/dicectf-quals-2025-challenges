@@ -1,0 +1,12 @@
+services:
+  mail:
+    build: ./mail
+    ports:
+      - 2525:2525
+    init: true
+  stockfish:
+    build: ./stockfish
+    ports:
+      - 8000:8000
+    init: true
+    hostname: stockfish

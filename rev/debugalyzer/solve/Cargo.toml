@@ -1,0 +1,9 @@
+[package]
+name = "solve"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gimli = "0.31.1"
+object = "0.36.7"
+z3 = "0.12.1"

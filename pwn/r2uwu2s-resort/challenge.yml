@@ -1,0 +1,38 @@
+name: r2uwu2s-resort
+author: arcblroth
+description: |-
+  I heard that [r2uwu2](https://r2dev2.github.io/) just won an all-expenses paid trip to a ✨ Celestial Resort ✨ on the slopes of Canada!
+  But this trip might not be all that it's cracked up to be - there's dust bunnies abound and garbage is cycling everywhere...
+
+  `{{nc}}`
+
+flag:
+  file: flag.txt
+
+provide:
+  - Dockerfile
+  - resort
+  - resort.c
+  - run.sh
+
+containers:
+  main:
+    build: .
+    ports:
+      - 5000
+    securityContext:
+      privileged: true
+    resources:
+      limits:
+        cpu: 500m
+        memory: 512Mi
+      requests:
+        cpu: 50m
+        memory: 64Mi
+
+expose:
+  main:
+    - target: 5000
+      tcp: 32030
+
+sortWeight: 100

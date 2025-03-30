@@ -1,0 +1,11 @@
+#!/bin/sh
+
+./qemu-system-x86_64 \
+	-L bios \
+	-kernel bzImage \
+	-initrd initramfs.cpio.gz \
+	-monitor none \
+	-append "console=ttyS0 quiet" \
+	-m 128M \
+	-nographic \
+	-device ich9-intel-hda,id=sound0,addr=0x1b

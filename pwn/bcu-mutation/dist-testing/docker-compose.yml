@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  bioweb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3200:3200"
+    volumes:
+      - ./data:/app/bioweb/data
+    environment:
+      - DATABASE_PATH=/app/bioweb/data/experiments.db
+    restart: unless-stopped 

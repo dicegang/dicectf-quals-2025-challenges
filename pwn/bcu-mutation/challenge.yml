@@ -1,0 +1,37 @@
+deployed: true
+visible: false
+name: bcu-mutation
+author: hgarrereyn,notdeghost
+description: |-
+  We've been investigating some suspicious anomalies in the BCU-8 chip while processing the `transcription` experiment.
+  Can you investigate for us?
+
+  (Same handout as the other BCU challenges)
+
+  [Instance]({{ instancer }})
+
+  If you find anything suspicious, please report it to your [Supervisor]({{ adminbot }}).
+flag:
+  file: ./flag.txt
+provide:
+- ./dist2.tar.gz
+- ./adminbot.js
+containers:
+  main:
+    build: dist-testing
+    ports:
+      - 3200
+    resources:
+      limits:
+        cpu: 1000m
+        memory: 1000Mi
+      requests:
+        cpu: 200m
+        memory: 400Mi
+expose:
+  main:
+    - target: 3200
+      http: bcu
+adminbot: adminbot.js
+instancer:
+  timeout: 1800000
